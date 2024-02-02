@@ -1,0 +1,63 @@
+body {
+    background-color: rgb(0, 0, 33); /* Dark background color */
+    color: white;
+    font-family: "Poppins", sans-serif;
+  }
+
+  .container {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .menu ul {
+    display: flex;
+    list-style: none;
+  }
+
+  .menu ul li {
+    margin: 0 23px;
+  }
+
+  .menu ul li a {
+    text-decoration: none;
+    color: white;
+  }
+
+  /* Future Planning Page Specific Styles */
+  .future-planning-section {
+    padding: 80px 0;
+  }
+
+  .future-planning-section .container {
+    text-align: center;
+  }
+
+  .future-planning-section h2 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+    color: rgb(143, 81, 202); /* Purple accent color */
+  }
+
+  .future-planning-section .planning-list {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+  }
+
+  .future-planning-section .planning-item {
+    width: 300px;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: rgb(18, 18, 62); /* Dark card background color */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Card shadow */
+  }
+
+  .future-planning-section .planning-item h3 {
+    font-size: 1.5rem;
+    color: rgb(143, 81, 202); /* Purple accent color */
+  }
+
+  .future-planning-section .planning-item p {
+    font-size: 16px;
+    color: #ccc; /* Light gray text color */
+  }

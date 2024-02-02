@@ -1,0 +1,45 @@
+/* Global Styles */
+body {
+    background-color: rgb(0, 0, 33); /* Dark background color */
+    color: white;
+    font-family: "Poppins", sans-serif;
+  }
+
+  .container {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .menu ul {
+    display: flex;
+    list-style: none;
+  }
+
+  .menu ul li {
+    margin: 0 23px;
+  }
+
+  .menu ul li a {
+    text-decoration: none;
+    color: white;
+  }
+
+  /* About Page Specific Styles */
+  .about-section {
+    padding: 80px 0;
+  }
+
+  .about-section .container {
+    text-align: center;
+  }
+
+  .about-section h2 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+    color: rgb(143, 81, 202); /* Purple accent color */
+  }
+
+  .about-section p {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
